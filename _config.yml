@@ -1,15 +1,6 @@
-# Example Site settings
-
-#google_analytics: UA-NNNNNNNN-N
-
-#header_pages:
-#  - index.md
-#  - about.md
-
-#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
-
-#style: light # dark (default) or light
-#listen_for_clients_preferred_style: true # true or false (default)
-
-plugins:
-  - jekyll-seo-tag
+title: blog do castellani
+logo: /assets/img/logo.png
+description: um pequeno blog onde registro coisas que considero interessantes
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-minimal
