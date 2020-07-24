@@ -3,6 +3,7 @@ layout: post
 author: marcelo castellani
 title: Criando uma shared library em C com o GCC
 tags: C
+description: Neste artigo mostro como criar e compilar uma biblioteca compartilhada em C, usando o gcc, e como a utilizar em outro projeto.
 ---
 ‎¡Hola!
 

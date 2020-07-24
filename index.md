@@ -11,11 +11,20 @@ Bem vindo a meu blog. Veja os últimos artigos que publiquei abaixo:
 <p>
 
 {%- if site.posts.size > 0 -%}
-  <ul>
-    {%- for post in site.posts -%}
-    <li>
-      {%- assign date_format = "%d-%m-%Y" -%}
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+  <ul style="margin-left:-40px">
+    {%- for post in site.posts limit:10 -%}
+    <li style="list-style-type:none">
+      {%- assign date-format = "%d-%m-%Y" -%}
+      <a href="{{ post.url | relative_url }}">[ {{ post.date | date: date-format }} ] {{ post.title | escape }}</a>
+      <br>
+      <ul>
+          <li style="list-style-type:none">
+              {{ post.description | escape }}
+          </li>
+          <li style="list-style-type:none; font-size:80%; font-color:light-gray;">
+              Categoria: {{ post.tags }}
+          </li>
+      </ul>
     </li>
     {%- endfor -%}
   </ul>

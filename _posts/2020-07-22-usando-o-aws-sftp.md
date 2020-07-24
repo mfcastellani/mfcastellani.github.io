@@ -3,6 +3,7 @@ layout: post
 author: marcelo castellani
 title: Usando o SFTP na AWS
 tags: Infraestrutura
+description: Um artigo explicando como configurar o serviço de SFTP da AWS usando o S3 como backend.
 ---
 ‎¡Hola!
 

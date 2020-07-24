@@ -3,6 +3,7 @@ layout: post
 author: marcelo castellani
 title: Enumeradores em Ruby
 tags: Ruby
+description: Neste artigo mostro como funcionam os métodos map, each, collect e select.
 ---
 ‎¡Hola!
 
