@@ -1,7 +1,7 @@
 ---
 layout: post
 author: marcelo castellani
-title: Everyday Rust, dia 01
+title: Instalando o compilador do Rust e outras ferramentas relacionadas, e, claro, um HELLO WORLD!
 tags: Rust
 description: Neste artigo apresento uma introdução as ferramentas necessárias para se utilizar o Rust, como o rustup, cargo e o crates.io.
 ---

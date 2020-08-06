@@ -1,7 +1,7 @@
 ---
 layout: post
 author: marcelo castellani
-title: Everyday Rust, dia 02
+title: Um primeiro código em Rust usando um Result de forma bem simples
 tags: Rust
 description: Neste projeto dou continuidade ao que fizemos na artigo anterior focando mais em código e menos em ferramentas.
 ---
